@@ -55,7 +55,7 @@
 ## Features
 
 [**FastStream**](https://faststream.airt.ai/) simplifies the process of writing producers and consumers for message queues, handling all the
-parsing, networking and documentation generation automatically.
+parsing, networking, and documentation generation automatically.
 
 Making streaming microservices has never been easier. Designed with junior developers in mind, **FastStream** simplifies your work while keeping the door open for more advanced use cases. Here's a look at the core features that make **FastStream** a go-to framework for modern, data-centric microservices.
 
@@ -198,7 +198,7 @@ async def test_invalid():
 
 ## Running the application
 
-The application can be started using built-in **FastStream** CLI command.
+The application can be started using the built-in **FastStream** CLI command.
 
 To run the service, use the **FastStream CLI** command and pass the module (in this case, the file where the app implementation is located) and the app symbol to the command.
 
@@ -340,7 +340,7 @@ JSON encoded object containing a single attribute: 'data'.
 
 While consuming from the topic, increment the value of the data attribute by 1.
 
-Finally, send message to the 'output_data' topic.
+Finally, send a message to the 'output_data' topic.
 ```
 
 and run the following command to create a new **FastStream** project:
